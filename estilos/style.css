@@ -18,25 +18,26 @@ body {
     background-attachment: fixed;
 }
 
+
 main {
     position: relative;
     height: 100vh;
 }
 section#telefone {
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 52%;
     left:50%;
     transform: translate(-50%, -50%);
     height: 600px;
-    width: 290px;
+    width: 280px;
     
-    background: url(../imagens/frame-iphone.png)no-repeat;
+    background: url(../imagens/frame-iphonenovo1.png)no-repeat;
 }
 
 iframe#tela{
     position: relative;
-    top: 77px;
-    left: 22px;
-    width:254px;
-    height:450px
+    top: 72px;
+    left: 21px;
+    width:235px;
+    height:415px
 }
